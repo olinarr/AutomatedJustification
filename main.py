@@ -6,7 +6,6 @@ from time import time
 from Profile import Profile
 from core import iterjustify
 from datetime import datetime
-from drawGraph import drawGraph
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--p', type=str, help='Goal profile. Example: 2:012,1:210 or 012,012,210 (Both mean {#2:0>1>2, #1:2>1>0})')
@@ -115,5 +114,6 @@ if args.time:
 
 # draw explanation
 if args.draw and answers:
+    from drawGraph import drawGraph
     for answer, _, _, _ in answers:
         drawGraph(answer = answer)
