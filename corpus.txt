@@ -1,0 +1,6 @@
+Cancellation
+Faithfulness
+Pareto
+PositiveResponsiveness
+Neutrality
+Reinforcement
