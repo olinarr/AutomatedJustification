@@ -1,0 +1,13 @@
+certifi==2021.5.30
+decorator==4.4.2
+mkl-fft==1.3.0
+mkl-random==1.2.1
+mkl-service==2.3.0
+networkx==2.5.1
+numpy==1.20.2
+pip==21.1.3
+pylgl==0.0.3
+scipy==1.6.2
+setuptools==52.0.0.post20210125
+six==1.16.0
+wheel==0.36.2

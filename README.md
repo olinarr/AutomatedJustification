@@ -38,3 +38,7 @@ To ease the reading of the outputs, it is possible to specify the option `--draw
 ## Requirements
 
 Written in `Python3`. Requires the libraries `pylgl` and `scipy`. The binaries of the gMUS extractor, MARCO, have been included, and that should work out of the box. For drawing, library `networkx` is necessary.
+
+Alternatively, the required libraries (with the exact versions) are listed in the `requirements.txt` file. You can install the required libraries by running:
+
+    pip install -r requirements.txt
